@@ -1,0 +1,23 @@
+# ---- Individual-level / restricted data: NEVER commit ----
+# Raw survey data are obtained separately under data-use agreements (see README).
+*.rds
+*.dta
+*.sav
+*.tab
+*.csv.gz
+famine_edent_pooled.rds
+data/
+Daten/
+
+# ---- Large binaries / local artefacts ----
+*.docx
+*.pdf
+*.log
+_run_log.txt
+.Rhistory
+.RData
+.Rproj.user/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
