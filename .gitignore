@@ -21,3 +21,7 @@ _run_log.txt
 # ---- OS ----
 .DS_Store
 Thumbs.db
+
+# ---- Re-analysis for the reply (reply_reanalysis/): local extracts and all outputs ----
+reply_reanalysis/data_local/
+reply_reanalysis/output/
